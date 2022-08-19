@@ -1,0 +1,108 @@
+:root {
+	--column: 12;
+	--air-l: 30px;
+	--air-b: 20px;
+}
+
+@mixin row-flex {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 0 calc(var(--air-b) * -1) calc(var(--air-l) * -1);
+}
+
+@mixin col {
+	margin: 0 0 var(--air-b) var(--air-l);
+	word-wrap: break-word;
+}
+
+@mixin size($n) {
+	width: calc(100% / var(--column) * #{$n} - var(--air-l));
+}
+
+.content-wrap {
+	padding: 4rem 0 6rem;
+	flex: 1;
+
+	h1 {
+		margin-bottom: 65px;
+	}
+
+	.bread-crumb + & {
+		padding-top: 48px;
+	}
+
+	@include desctop-min {
+		padding: 3.5rem 0 7rem;
+
+		h1 {
+			margin-bottom: 50px;
+		}
+	}
+
+	@include table {
+		padding: 2.5rem 0 5rem;
+
+		.bread-crumb + & {
+			padding-top: 15px;
+		}
+	}
+
+	@include mobile {
+		h1 {
+			margin-bottom: 35px;
+		}
+	}
+}
+
+/*section*/
+.section {
+	padding: 80px 0 20px;
+
+	&__title {
+		margin: 0 0 getEm(70, 28) !important;
+		text-align: center;
+	}
+
+	h2#{&}__title {
+		font-size: 28px !important;
+	}
+
+
+	@include desctop-min {
+		padding: 60px 0 20px;
+
+		&__title {
+			margin-bottom: 55px;
+		}
+
+		h2#{&}__title {
+			font-size: 24px !important;
+		}
+	}
+
+	@include table {
+		&__title {
+			margin-bottom: 50px;
+		}
+	}
+
+	@include mobile {
+		h2#{&}__title {
+			font-size: 20px !important;
+		}
+	}
+}
+
+.col-count-2 {
+	column-count: 2;
+
+	& > * {
+		break-inside: avoid-column;
+	}
+}
+
+.col-count-sm-1 {
+	@include mobile {
+		column-count: 1;
+	}
+}

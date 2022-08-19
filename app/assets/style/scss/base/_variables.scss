@@ -1,0 +1,38 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~
+VARIABLES
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+$color-primary: #ffee00;
+
+:root {
+	/*font-family*/
+	--fm-1: "Roboto Condensed", sans-serif;
+
+	/*colors*/
+	--basic-black: #000;
+	--basick-dark: #333;
+	--basick-white: #fff;
+
+	--color-primary: #{$color-primary};
+}
+
+//breakpoints
+$desctop: 1920;
+$desctop-mid: 1399;
+$desctop-min: 1199;
+$table: 992;
+$mobile: 767;
+$tel: 575;
+
+$breakpoints: (
+	"xl": #{$desctop-mid}px,
+	"lg": #{$desctop-min}px,
+	"md": #{$table}px,
+	"sm": #{$mobile}px,
+	"xs": #{$tel}px,
+) !default;
+
+$grid-columns: 12 !default;
+
+/***********************Main*/
+$duration: 0.3s;

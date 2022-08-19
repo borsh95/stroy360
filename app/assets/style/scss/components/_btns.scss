@@ -1,0 +1,31 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ COMMON BUTTON ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: getEm(13, 14) getEm(28, 14);
+	font-weight: 500;
+	font-family: "Roboto";
+	text-align: center;
+	border-radius: 40px;
+	transition: all 0.2s;
+
+	&__icon {
+		flex-shrink: 0;
+		margin-left: getEm(11, 14);
+		> * {
+			display: block;
+			max-width: 100%;
+			max-height: 100%;
+		}
+	}
+
+	&--white {
+		color: #333333;
+		background-color: #fff;
+
+		&:hover {
+			background-color: darken(#fff, 7%);
+		}
+	}
+}

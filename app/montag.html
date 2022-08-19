@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Главная</title>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/vendors/kernel_main.css">
+	<link rel="stylesheet" href="./assets/vendors/template.css">
+	<link rel="stylesheet" href="./assets/vendors/yellow-theme.css">
+	<link rel="stylesheet" href="./assets/style/css/style.css">
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+</head>
+
+<body data-theme="yellow d-flex">
+	<div class="main-wrapper" id="isolation">
+		<!-- HEADER -->
+		<header class="header">
+			<!-- header top -->
+			<div class="container">
+				<div class="header__top">
+					<!-- brand warp -->
+					<span class="brand-wrap">
+						<span class="logo-wrap">
+							<img src="https://stroy360.by/assets/templates/stroy360/images/logo-new.png" alt=""
+								class="brand-logo">
+						</span>
+						<span class="text-wrap">
+							<span class="brand-name">STROY360.BY</span>
+							<h1 class="brand-desc">Интернет-каталог строительных материалов</h1>
+						</span>
+					</span>
+					<!-- col -->
+					<div class="header__top-col">
+						<div class="header__tels">
+							<span>
+								<img src="https://stroy360.by/assets/templates/stroy360/images/a1.png" alt="">
+								<a href="tel:+375296660268"> +375 (29) <b>666-02-68</b></a>
+							</span>
+							<span>
+								<img src="https://stroy360.by/assets/templates/stroy360/images/mts.png" alt="">
+								<a href="tel:+375336664968">+375 (33) <b>666-49-68</b></a>
+							</span>
+						</div>
+						<button class="header__callback btn btn-primary" type="button" aria-label="Заказать звонок">
+							ЗАКАЗАТЬ ЗВОНОК
+						</button>
+					</div>
+					<!-- col -->
+					<div class="header__top-col">
+						<div class="infod">
+							<div class="firm-info">
+								<span class="firm-info__ic ich">
+									<img src="https://stroy360.by/doc/icon/shop.png">
+								</span>
+								<span>
+									Пн-Пт: <b>10:00-17:00</b> <br>
+									Сб: <b>10:00-15:00</b>
+								</span>
+							</div>
+							<div class="firm-info">
+								<span class="firm-info__ic ich">
+									<img src="https://stroy360.by/doc/icon/shop.png">
+								</span>
+								<span>
+									Прием заказов: <b>9:00 - 22:00</b>
+								</span>
+							</div>
+						</div>
+						<div class="header__search-wrap vt-center">
+							<!-- search -->
+							<form class="header__search search js-search">
+								<label class="search__inner">
+									<input class="search__input js-search-input" type="search" placeholder="Поиск">
+									<button class="search__submit" type="submit" aria-label="Поиск...">
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_31_737)">
+												<path
+													d="M8.80758 0C3.95121 0 0 3.95121 0 8.80758C0 13.6642 3.95121 17.6152 8.80758 17.6152C13.6642 17.6152 17.6152 13.6642 17.6152 8.80758C17.6152 3.95121 13.6642 0 8.80758 0ZM8.80758 15.9892C4.84769 15.9892 1.62602 12.7675 1.62602 8.80762C1.62602 4.84773 4.84769 1.62602 8.80758 1.62602C12.7675 1.62602 15.9891 4.84769 15.9891 8.80758C15.9891 12.7675 12.7675 15.9892 8.80758 15.9892Z"
+													fill="#333333" />
+												<path
+													d="M19.7618 18.6122L15.1005 13.9509C14.7829 13.6333 14.2685 13.6333 13.9509 13.9509C13.6333 14.2683 13.6333 14.7832 13.9509 15.1005L18.6122 19.7618C18.771 19.9206 18.9789 20 19.187 20C19.3948 20 19.603 19.9206 19.7618 19.7618C20.0794 19.4444 20.0794 18.9295 19.7618 18.6122Z"
+													fill="#333333" />
+											</g>
+											<defs>
+												<clipPath id="clip0_31_737">
+													<rect width="20" height="20" fill="white" />
+												</clipPath>
+											</defs>
+										</svg>
+
+									</button>
+								</label>
+							</form>
+							<!-- basket -->
+							<a class="header__basket btn-basket not_empty" href="korzina.html">
+								<span class="btn-basket__ic">
+									<svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<g clip-path="url(#clip0_31_1962)">
+											<path
+												d="M9.07812 18.1018H23.8987C24.2657 18.1018 24.5876 17.8591 24.6869 17.5066L27.9684 6.02203C28.0389 5.77444 27.9906 5.50848 27.8353 5.30276C27.6798 5.09769 27.438 4.97656 27.1799 4.97656H7.18436L6.59796 2.33789C6.51465 1.96213 6.1814 1.69531 5.79688 1.69531H0.820312C0.367004 1.69531 0 2.06232 0 2.51562C0 2.96915 0.367004 3.33594 0.820312 3.33594H5.13849L8.1008 16.666C7.22922 17.045 6.61719 17.9125 6.61719 18.9221C6.61719 20.279 7.72119 21.383 9.07812 21.383H23.8987C24.3522 21.383 24.719 21.0162 24.719 20.5627C24.719 20.1094 24.3522 19.7424 23.8987 19.7424H9.07812C8.62631 19.7424 8.25781 19.3748 8.25781 18.9221C8.25781 18.4694 8.62631 18.1018 9.07812 18.1018Z"
+												fill="white" />
+											<path
+												d="M8.25781 23.8438C8.25781 25.2009 9.36182 26.3047 10.719 26.3047C12.0759 26.3047 13.1799 25.2009 13.1799 23.8438C13.1799 22.4868 12.0759 21.3828 10.719 21.3828C9.36182 21.3828 8.25781 22.4868 8.25781 23.8438Z"
+												fill="white" />
+											<path
+												d="M19.7971 23.8438C19.7971 25.2009 20.9011 26.3047 22.2581 26.3047C23.6152 26.3047 24.719 25.2009 24.719 23.8438C24.719 22.4868 23.6152 21.3828 22.2581 21.3828C20.9011 21.3828 19.7971 22.4868 19.7971 23.8438Z"
+												fill="white" />
+										</g>
+										<defs>
+											<clipPath id="clip0_31_1962">
+												<rect width="28" height="28" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+								</span>
+								<span class="btn-basket__text">
+									<span class="btn-basket__count ms2_total_count">0</span>&nbsp;<span
+										class="btn-basket__count-measure">шт</span> <br>
+									<span class="btn-basket__cost ms2_total_cost">0 BYN</span>
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- header nav -->
+			<div class="header__nav-area">
+				<div class="container">
+					<!-- mobile controls -->
+					<div class="header__mobile-controls">
+						<!-- hamburger -->
+						<button class="header__hamburger hamburger" type="button" aria-label="Открыть меню">
+							<span></span>
+						</button>
+						<!-- search toggle -->
+						<button class="search-toggle js-search-toggle" type="button" aria-label="Показать поиск">
+							<svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_31_1979)">
+									<path
+										d="M17.6152 0C7.90242 0 0 7.90242 0 17.6152C0 27.3284 7.90242 35.2303 17.6152 35.2303C27.3284 35.2303 35.2303 27.3284 35.2303 17.6152C35.2303 7.90242 27.3284 0 17.6152 0ZM17.6152 31.9784C9.69539 31.9784 3.25203 25.535 3.25203 17.6152C3.25203 9.69547 9.69539 3.25203 17.6152 3.25203C25.5349 3.25203 31.9783 9.69539 31.9783 17.6152C31.9783 25.5349 25.5349 31.9784 17.6152 31.9784Z"
+										fill="#FFEE00" />
+									<path
+										d="M39.5236 37.2244L30.2011 27.9019C29.5658 27.2666 28.5371 27.2666 27.9018 27.9019C27.2666 28.5366 27.2666 29.5664 27.9018 30.2011L37.2243 39.5236C37.5419 39.8412 37.9577 40 38.374 40C38.7897 40 39.2059 39.8412 39.5236 39.5236C40.1588 38.8889 40.1588 37.8591 39.5236 37.2244Z"
+										fill="#FFEE00" />
+								</g>
+								<defs>
+									<clipPath id="clip0_31_1979">
+										<rect width="40" height="40" fill="white" />
+									</clipPath>
+								</defs>
+							</svg>
+
+						</button>
+					</div>
+					<!-- burger -->
+					<div class="header__burger">
+						<div class="header__burger-inner">
+							<nav class="header__nav">
+								<!-- catalog -->
+								<div class="mein-catalog-wrap">
+									<button type="button" class="btn btn-mainmenu-toggle">
+										Каталог товаров
+									</button>
+									<div class="mainmenu-wrap costum-catalog-menu dropdown w-hidden-items ready"
+										id="mainmenu-wrap">
+										<div class="mainmenu-lvl0" id="mainmenu-lvl0">
+											<ul class="">
+												<li class="mm0-item first mm1 has-submenu">
+													<a href="https://stroy360.by/catalog/sayding/" class="mm0-link">
+														Сайдинг наружный
+														<span class="mainmenu__arr"></span>
+													</a>
+													<div class="mm-submenu mainmenu-lvl1">
+														<div class="m1-header"><span>Сайдинг наружный</span></div>
+														<ul class="mainmenu-lvl1-list">
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/sayding/akrilovyy-sayding/"
+																	class="mm1-link link link-black">Акриловый
+																	сайдинг<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/sayding/vinilovyy/"
+																	class="mm1-link link link-black">Виниловый
+																	сайдинг<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/sayding/metallicheskiy/"
+																	class="mm1-link link link-black">Металлический
+																	сайдинг<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/sayding/blockhouse/"
+																	class="mm1-link link link-black">Сайдинг
+																	Блок-Хаус<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/sayding/sayding-pod-kamen/"
+																	class="mm1-link link link-black">Сайдинг под
+																	камень<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/sayding/fasadnye-paneli/"
+																	class="mm1-link link link-black">Фасадные
+																	панели<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/sayding/fibrosayding/"
+																	class="mm1-link link link-black">Фибросайдинг<span
+																		class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/sayding/formovannyy-sayding/"
+																	class="mm1-link link link-black">Формованный
+																	сайдинг Альта-Профиль<span class="badge"></span></a>
+															</li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/sayding/cokolnyy/"
+																	class="mm1-link link link-black">Цокольный
+																	сайдинг<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/sayding/otdelochnye-elementy-alta-dekor/"
+																	class="mm1-link link link-black">Отделочные
+																	элементы АЛЬТА-ДЕКОР<span class="badge"></span></a>
+															</li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/sayding/sredstva-obnovleniya-i-ukhoda-za-saydingom/"
+																	class="mm1-link link link-black">Средства
+																	обновления и ухода за сайдингом<span
+																		class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/sayding/sayding-docke-pod-kamen-bergart/"
+																	class="mm1-link link link-black">Сайдинг Docke
+																	под камень BERGART<span class="badge"></span></a>
+															</li>
+														</ul>
+													</div>
+												</li>
+												<li class="mm0-item mm1 has-submenu"><a
+														href="https://stroy360.by/catalog/fasadnaya-sistema-amk/"
+														class="mm0-link">Фасадная
+														система АМК</a>
+													<div class="mm-submenu mainmenu-lvl1">
+														<div class="m1-header"><span>Фасадная система АМК</span>
+														</div>
+														<ul class="mainmenu-lvl1-list">
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/fasadnaya-sistema-amk/fasadnaya-sistema-amk-blok/"
+																	class="mm1-link link link-black">Фасадная
+																	система АМК Блок<span class="badge"></span></a>
+															</li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/fasadnaya-sistema-amk/fasadnaya-sistema-amk-kirpich/"
+																	class="mm1-link link link-black">Фасадная
+																	система АМК Кирпич<span class="badge"></span></a>
+															</li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/fasadnaya-sistema-amk/fasadnaya-sistema-amk-klinker/"
+																	class="mm1-link link link-black">Фасадная
+																	система АМК Клинкер<span class="badge"></span></a>
+															</li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/fasadnaya-sistema-amk/fasadnaya-sistema-amk-tyichok/"
+																	class="mm1-link link link-black">Фасадная
+																	система АМК Тычок<span class="badge"></span></a>
+															</li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/fasadnaya-sistema-amk/fasadnaya-sistema-amk-rigel/"
+																	class="mm1-link link link-black">Фасадная
+																	система АМК Ригель<span class="badge"></span></a>
+															</li>
+														</ul>
+													</div>
+												</li>
+												<li class="mm0-item mm1 has-submenu"><a
+														href="https://stroy360.by/catalog/sofity/"
+														class="mm0-link">Софиты (подшивка кровли)</a>
+													<div class="mm-submenu mainmenu-lvl1">
+														<div class="m1-header"><span>Софиты (подшивка кровли)</span>
+														</div>
+														<ul class="mainmenu-lvl1-list">
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/sofity/grand-line/"
+																	class="mm1-link link link-black">Софиты Grand
+																	Line<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/sofity/alta-profil/"
+																	class="mm1-link link link-black">Софиты
+																	Альта-Профиль<span class="badge"></span></a>
+															</li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/sofity/vox/"
+																	class="mm1-link link link-black">Софиты VOX<span
+																		class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/sofity/yu-plast/"
+																	class="mm1-link link link-black">Софиты
+																	Ю-пласт<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/sofity/docke/"
+																	class="mm1-link link link-black">Софиты
+																	Docke<span class="badge"></span></a></li>
+														</ul>
+													</div>
+												</li>
+												<li class="mm0-item mm1 has-submenu"><a
+														href="https://stroy360.by/catalog/vodostochnye-sistemy/"
+														class="mm0-link">Водосточные системы</a>
+													<div class="mm-submenu mainmenu-lvl1">
+														<div class="m1-header"><span>Водосточные системы</span>
+														</div>
+														<ul class="mainmenu-lvl1-list">
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/vodostochnye-sistemy/metallicheskaya/"
+																	class="mm1-link link link-black">Металлические
+																	водосточные системы<span class="badge"></span></a>
+															</li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/vodostochnye-sistemy/plastikovaya-vodostochnaya-sistema/"
+																	class="mm1-link link link-black">Пластиковые
+																	водосточные системы<span class="badge"></span></a>
+															</li>
+														</ul>
+													</div>
+												</li>
+												<li class="mm0-item mm1 has-submenu"><a
+														href="https://stroy360.by/catalog/krovlya/"
+														class="mm0-link">Кровельные материалы</a>
+													<div class="mm-submenu mainmenu-lvl1">
+														<div class="m1-header"><span>Кровельные материалы</span>
+														</div>
+														<ul class="mainmenu-lvl1-list">
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/krovlya/kompozitnaya-cherepitsa/"
+																	class="mm1-link link link-black">Композитная
+																	черепица<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/krovlya/metallocherepitsa/"
+																	class="mm1-link link link-black">Металлочерепица<span
+																		class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/krovlya/ondulin/"
+																	class="mm1-link link link-black">Ондулин<span
+																		class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/krovlya/proflist/"
+																	class="mm1-link link link-black">Профнастил
+																	кровельный<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/krovlya/komplektuyushhie-dlya-krovli/"
+																	class="mm1-link link link-black">Комплектующие
+																	для кровли<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/krovlya/gibkaya-cherepicza/"
+																	class="mm1-link link link-black">Гибкая
+																	черепица<span class="badge"></span></a></li>
+														</ul>
+													</div>
+												</li>
+												<li class="mm0-item mm1 has-submenu"><a
+														href="https://stroy360.by/catalog/zabor/"
+														class="mm0-link">Забор</a>
+													<div class="mm-submenu mainmenu-lvl1">
+														<div class="m1-header"><span>Забор</span></div>
+														<ul class="mainmenu-lvl1-list">
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/zabor/zabor-iz-metalloprofilya/"
+																	class="mm1-link link link-black">Забор из
+																	металлопрофиля<span class="badge"></span></a>
+															</li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/zabor/shtaketnik-metallicheskiy/"
+																	class="mm1-link link link-black">Металлоштакетник
+																	<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/zabor/zabor-zhalyuzi/"
+																	class="mm1-link link link-black">Забор-жалюзи<span
+																		class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/zabor/panelnye-ograzhdeniya/"
+																	class="mm1-link link link-black">Панельные
+																	ограждения<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/zabor/modulnye-ograzhdeniya/"
+																	class="mm1-link link link-black">Модульные
+																	ограждения<span class="badge"></span></a></li>
+														</ul>
+													</div>
+												</li>
+												<li class="mm0-item mm1 has-submenu"><a
+														href="https://stroy360.by/catalog/komplektuyushchie-dlya-saydinga/"
+														class="mm0-link">Комплектующие для сайдинга</a>
+													<div class="mm-submenu mainmenu-lvl1">
+														<div class="m1-header"><span>Комплектующие для
+																сайдинга</span></div>
+														<ul class="mainmenu-lvl1-list">
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/komplektuyushchie-dlya-saydinga/komplektuyushchie-dlya-vinilovogo-saydinga/"
+																	class="mm1-link link link-black">Комплектующие
+																	для винилового сайдинга<span
+																		class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/komplektuyushchie-dlya-saydinga/komplektuyushchie-dlya-metalicheskogo-saydinga/"
+																	class="mm1-link link link-black">Комплектующие
+																	для металического сайдинга<span
+																		class="badge"></span></a></li>
+														</ul>
+													</div>
+												</li>
+											</ul>
+
+											<ul class="collapse" id="mm0-additional">
+												<li class="mm0-item mm1"><a
+														href="https://stroy360.by/catalog/obreshyetka-dlya-saydinga/"
+														class="mm0-link">Обрешётка под сайдинг</a></li>
+												<li class="mm0-item mm1 has-submenu"><a
+														href="https://stroy360.by/catalog/plyenki-i-utepliteli-dlya-saydinga/"
+														class="mm0-link">Утеплитель под сайдинг и кровлю</a>
+													<div class="mm-submenu mainmenu-lvl1">
+														<div class="m1-header"><span>Утеплитель под сайдинг и
+																кровлю</span></div>
+														<ul class="mainmenu-lvl1-list">
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/plyenki-i-utepliteli-dlya-saydinga/ventiliruemyij-fasad/"
+																	class="mm1-link link link-black">Утеплитель для
+																	вентилируемого фасада<span class="badge"></span></a>
+															</li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/plyenki-i-utepliteli-dlya-saydinga/skatnyie-krovli-i-karkasnyie-konstrukczii/"
+																	class="mm1-link link link-black">Утеплитель для
+																	скатной кровли и каркасных конструкций<span
+																		class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/plyenki-i-utepliteli-dlya-saydinga/uteplitel-dlya-fasada-pod-shtukaturku/"
+																	class="mm1-link link link-black">Утеплитель для
+																	фасада под штукатурку<span class="badge"></span></a>
+															</li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/plyenki-i-utepliteli-dlya-saydinga/ekstrudirovannyij-penopolistirol/"
+																	class="mm1-link link link-black">Экструдированный
+																	пенополистирол<span class="badge"></span></a>
+															</li>
+														</ul>
+													</div>
+												</li>
+												<li class="mm0-item mm1 has-submenu"><a
+														href="https://stroy360.by/catalog/podokonniki/"
+														class="mm0-link">Подоконники</a>
+													<div class="mm-submenu mainmenu-lvl1">
+														<div class="m1-header"><span>Подоконники</span></div>
+														<ul class="mainmenu-lvl1-list">
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/podokonniki/danke-komfort/"
+																	class="mm1-link link link-black">Подоконники
+																	Danke Komfort<span class="badge"></span></a>
+															</li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/podokonniki/estera/"
+																	class="mm1-link link link-black">Подоконники
+																	Estera<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/podokonniki/finedek/"
+																	class="mm1-link link link-black">Подоконники
+																	FineDek<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/podokonniki/danke/"
+																	class="mm1-link link link-black">Подоконники
+																	Danke<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/podokonniki/crystalit/"
+																	class="mm1-link link link-black">Подоконники
+																	Crystalit<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/podokonniki/podokonniki-elex/"
+																	class="mm1-link link link-black">Подоконники
+																	ELEX<span class="badge"></span></a></li>
+														</ul>
+													</div>
+												</li>
+												<li class="mm0-item mm1 has-submenu"><a
+														href="https://stroy360.by/catalog/paneli-mdf/"
+														class="mm0-link">Панели МДФ</a>
+													<div class="mm-submenu mainmenu-lvl1">
+														<div class="m1-header"><span>Панели МДФ</span></div>
+														<ul class="mainmenu-lvl1-list">
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/paneli-mdf/kronostar/"
+																	class="mm1-link link link-black">Панели МДФ
+																	Кроностар<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/paneli-mdf/master-dekor/"
+																	class="mm1-link link link-black">Панели МДФ
+																	Мастер Декор<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/paneli-mdf/soyuz-stil/"
+																	class="mm1-link link link-black">Панели МДФ
+																	Союз-стиль<span class="badge"></span></a></li>
+														</ul>
+													</div>
+												</li>
+												<li class="mm0-item mm1 has-submenu"><a
+														href="https://stroy360.by/catalog/infrakrasnye-obogrevateli/"
+														class="mm0-link">Инфракрасные обогреватели</a>
+													<div class="mm-submenu mainmenu-lvl1">
+														<div class="m1-header"><span>Инфракрасные
+																обогреватели</span></div>
+														<ul class="mainmenu-lvl1-list">
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/infrakrasnye-obogrevateli/keramicheskie-infrakrasnye-obogrevateli/"
+																	class="mm1-link link link-black">Керамические
+																	Инфракрасные обогреватели<span
+																		class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/infrakrasnye-obogrevateli/nastennye-infrakrasnye-obogrevateli/"
+																	class="mm1-link link link-black">Настенные
+																	Инфракрасные обогреватели<span
+																		class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/infrakrasnye-obogrevateli/plintusnye-infrakrasnye-obogrevateli/"
+																	class="mm1-link link link-black">Плинтусные
+																	Инфракрасные обогреватели<span
+																		class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/infrakrasnye-obogrevateli/potolochnye-infrakrasnye-obogrevateli/"
+																	class="mm1-link link link-black">Потолочные
+																	Инфракрасные обогреватели<span
+																		class="badge"></span></a></li>
+														</ul>
+													</div>
+												</li>
+												<li class="mm0-item mm1"><a
+														href="https://stroy360.by/catalog/cherdachnye-lestnitsy-docke/"
+														class="mm0-link">Чердачные лестницы Docke</a></li>
+												<li class="mm0-item mm1"><a
+														href="https://stroy360.by/catalog/karkasnye-doma/"
+														class="mm0-link">Каркасные дома</a></li>
+												<li class="mm0-item mm1 has-submenu"><a
+														href="https://stroy360.by/catalog/drevesno-plitnye-materialy/"
+														class="mm0-link">Древесно-плитные материалы</a>
+													<div class="mm-submenu mainmenu-lvl1">
+														<div class="m1-header"><span>Древесно-плитные
+																материалы</span></div>
+														<ul class="mainmenu-lvl1-list">
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/drevesno-plitnye-materialy/plita-osb-osb/"
+																	class="mm1-link link link-black">Плита OSB
+																	(ОСБ)<span class="badge"></span></a></li>
+														</ul>
+													</div>
+												</li>
+												<li class="mm0-item mm1"><a
+														href="https://stroy360.by/catalog/profilnye-materialy-iz-sosny-eli/"
+														class="mm0-link">Профильные материалы из сосны, ели</a></li>
+												<li class="mm0-item mm1"><a
+														href="https://stroy360.by/catalog/sibirskaya-listvennitsa/"
+														class="mm0-link">Сибирская лиственница</a></li>
+												<li class="mm0-item mm1"><a
+														href="https://stroy360.by/catalog/dlya-stroitelstva-bani-sauny/"
+														class="mm0-link">Для строительства бани, сауны</a></li>
+												<li class="mm0-item mm1"><a
+														href="https://stroy360.by/catalog/piks-paneli/"
+														class="mm0-link">ПИКС панели</a></li>
+												<li class="mm0-item mm1 has-submenu"><a
+														href="https://stroy360.by/catalog/teplyy-pol/"
+														class="mm0-link">Теплый пол</a>
+													<div class="mm-submenu mainmenu-lvl1">
+														<div class="m1-header"><span>Теплый пол</span></div>
+														<ul class="mainmenu-lvl1-list">
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/teplyy-pol/teplyy-pol-v-styazhku/"
+																	class="mm1-link link link-black">Теплый пол в
+																	стяжку<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/teplyy-pol/maty-dlya-teplogo-pola/"
+																	class="mm1-link link link-black">Маты для
+																	теплого пола<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/teplyy-pol/infrakrasnyy-teplyy-pol/"
+																	class="mm1-link link link-black">Инфракрасный
+																	теплый пол<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/teplyy-pol/teplyy-pol-pod-plitku/"
+																	class="mm1-link link link-black">Теплый пол под
+																	плитку<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/teplyy-pol/nagrevatelnyy-kabel/"
+																	class="mm1-link link link-black">Нагревательный
+																	кабель<span class="badge"></span></a></li>
+														</ul>
+													</div>
+												</li>
+												<li class="mm0-item mm1"><a
+														href="https://stroy360.by/catalog/kozyrki-i-navesy/"
+														class="mm0-link">Козырьки и навесы</a></li>
+												<li class="mm0-item mm1 has-submenu"><a
+														href="https://stroy360.by/catalog/dekorativnyy-kamen/"
+														class="mm0-link">Декоративный
+														камень</a>
+													<div class="mm-submenu mainmenu-lvl1">
+														<div class="m1-header"><span>Декоративный камень</span>
+														</div>
+														<ul class="mainmenu-lvl1-list">
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/dekorativnyy-kamen/dekorativnyy-kamen-petra-ryadovoy-uglovoy/"
+																	class="mm1-link link link-black">Декоративный
+																	камень PETRA рядовой,угловой<span
+																		class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/dekorativnyy-kamen/gipsovyy-kamen-air-stone-petra/"
+																	class="mm1-link link link-black">Гипсовый камень
+																	Air Stone PETRA<span class="badge"></span></a>
+															</li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/dekorativnyy-kamen/soputstvuyushchie-tovary/"
+																	class="mm1-link link link-black">Сопутствующие
+																	товары для декоративного камня<span
+																		class="badge"></span></a></li>
+														</ul>
+													</div>
+												</li>
+												<li class="mm0-item mm1 has-submenu"><a
+														href="https://stroy360.by/catalog/plastikovye-plintusa/"
+														class="mm0-link">Напольные
+														пластиковые плинтуса</a>
+													<div class="mm-submenu mainmenu-lvl1">
+														<div class="m1-header"><span>Напольные пластиковые
+																плинтуса</span></div>
+														<ul class="mainmenu-lvl1-list">
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/plastikovye-plintusa/cezar/"
+																	class="mm1-link link link-black">Напольные
+																	плинтуса Cezar<span class="badge"></span></a>
+															</li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/plastikovye-plintusa/ideal/"
+																	class="mm1-link link link-black">Напольные
+																	плинтуса Ideal<span class="badge"></span></a>
+															</li>
+														</ul>
+													</div>
+												</li>
+												<li class="mm0-item mm1"><a
+														href="https://stroy360.by/catalog/sendvich-paneli-pvh/"
+														class="mm0-link">Сендвич-Панели ПВХ</a></li>
+												<li class="mm0-item last mm1 has-submenu"><a
+														href="https://stroy360.by/catalog/polyi/"
+														class="mm0-link">Напольные покрытия</a>
+													<div class="mm-submenu mainmenu-lvl1">
+														<div class="m1-header"><span>Напольные покрытия</span></div>
+														<ul class="mainmenu-lvl1-list">
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/polyi/laminat/"
+																	class="mm1-link link link-black">Ламинат<span
+																		class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/polyi/parketnaya-doska/"
+																	class="mm1-link link link-black">Паркетная
+																	доска<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/polyi/vinilovyie-polyi/"
+																	class="mm1-link link link-black">Виниловые
+																	полы<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/polyi/dizajnerskie-polyi-avatara-ter-hurne-(germaniya)/"
+																	class="mm1-link link link-black">Дизайнерские
+																	полы Avatara Ter Hurne (Германия)<span
+																		class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/polyi/kamenno-polimernaya-plitka-(spc)-alpine-floor/"
+																	class="mm1-link link link-black">Каменно-полимерная
+																	плитка (SPC) Alpine Floor<span
+																		class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/polyi/probkovoe-pokryitie/"
+																	class="mm1-link link link-black">Пробковое
+																	покрытие<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/polyi/terrasnaya-doska/"
+																	class="mm1-link link link-black">Террасная доска
+																	ДПК<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/polyi/shtuchnyij-parket/"
+																	class="mm1-link link link-black">Штучный
+																	паркет<span class="badge"></span></a></li>
+															<li class="mm1-item"><a
+																	href="https://stroy360.by/catalog/polyi/soputstvuyushhie-tovaryi/"
+																	class="mm1-link link link-black">Сопутствующие
+																	товары<span class="badge"></span></a></li>
+														</ul>
+													</div>
+												</li>
+											</ul>
+											<a href="#mm0-additional" data-toggle="collapse"
+												class="mainmenu-height-toggle link-black collapsed"
+												id="menuheight-toggle">
+												<span class="text when-collapsed">Еще товары</span>
+												<span class="text when-expanded">Свернуть</span>
+											</a>
+										</div>
+									</div>
+								</div>
+								<!-- menu -->
+								<ul class="header__menu menu lvl-1">
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											<span>Акции</span>
+										</a>
+									</li>
+									<li class="menu__item active">
+										<span href="#" class="menu__link">
+											<span>
+												Монтаж
+											</span>
+											<span class="menu__link-arr">
+												<svg width="15" height="9" viewBox="0 0 15 9" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M8.56538 8.57089C8.64126 8.49555 8.70529 8.41215 8.76098 8.32552L14.5746 2.51164C15.1415 1.94422 15.1417 1.02461 14.5743 0.456919C14.0072 -0.110504 13.0873 -0.110504 12.5196 0.456919L7.51287 5.46418L2.47977 0.431629C1.91289 -0.136064 0.99274 -0.136064 0.425047 0.431629C0.141739 0.715475 -4.95911e-05 1.08703 -4.95911e-05 1.45859C-4.95911e-05 1.83014 0.14174 2.20251 0.425586 2.48555L6.26475 8.32552C6.32044 8.41215 6.38421 8.49529 6.46035 8.57089C6.75092 8.86146 7.13243 9.00083 7.51287 8.99437C7.89357 9.0011 8.27562 8.86146 8.56538 8.57089Z"
+														fill="#FFEE00" />
+												</svg>
+
+											</span>
+										</span>
+										<!-- submenu -->
+										<ul class="menu__submenu">
+											<li class="menu__item active">
+												<span class="menu__link" href="#">
+													Монтаж водосточной системы
+												</span>
+											</li>
+											<li class="menu__item">
+												<a class="menu__link" href="#">
+													Монтаж сайдинга
+												</a>
+											</li>
+											<li class="menu__item">
+												<a class="menu__link" href="#">
+													Монтаж забора
+												</a>
+											</li>
+											<li class="menu__item">
+												<a class="menu__link" href="#">
+													Мойка крыш
+												</a>
+											</li>
+											<li class="menu__item">
+												<a class="menu__link" href="#">
+													Кровельные работы
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											<span>Галерея</span>
+										</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											<span>
+												О магазине
+											</span>
+											<span class="menu__link-arr">
+												<svg width="15" height="9" viewBox="0 0 15 9" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M8.56538 8.57089C8.64126 8.49555 8.70529 8.41215 8.76098 8.32552L14.5746 2.51164C15.1415 1.94422 15.1417 1.02461 14.5743 0.456919C14.0072 -0.110504 13.0873 -0.110504 12.5196 0.456919L7.51287 5.46418L2.47977 0.431629C1.91289 -0.136064 0.99274 -0.136064 0.425047 0.431629C0.141739 0.715475 -4.95911e-05 1.08703 -4.95911e-05 1.45859C-4.95911e-05 1.83014 0.14174 2.20251 0.425586 2.48555L6.26475 8.32552C6.32044 8.41215 6.38421 8.49529 6.46035 8.57089C6.75092 8.86146 7.13243 9.00083 7.51287 8.99437C7.89357 9.0011 8.27562 8.86146 8.56538 8.57089Z"
+														fill="#FFEE00" />
+												</svg>
+
+											</span>
+										</a>
+										<!-- submenu -->
+										<ul class="menu__submenu">
+											<li class="menu__item">
+												<a class="menu__link" href="#">
+													Отзывы
+												</a>
+											</li>
+											<li class="menu__item">
+												<a class="menu__link" href="#">
+													Вопросы и ответы
+												</a>
+											</li>
+											<li class="menu__item">
+												<a class="menu__link" href="#">
+													Доставка
+												</a>
+											</li>
+											<li class="menu__item">
+												<a class="menu__link" href="#">
+													Оплата
+												</a>
+											</li>
+											<li class="menu__item">
+												<a class="menu__link" href="#">
+													Гарантия качества
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											<span>Контакты</span>
+										</a>
+									</li>
+								</ul>
+							</nav>
+							<button class="header__callback btn btn-primary" type="button" aria-label="Заказать звонок">
+								ЗАКАЗАТЬ ЗВОНОК
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main style="display: block;">
+			<!-- banner -->
+			<div class="banner-c">
+				<div class="banner-c__bg">
+					<img src="./docs/img/other/banner-montag.jpg" alt="Монтаж сайдинга">
+				</div>
+				<div class="container">
+					<div class="banner-c__content">
+						<h1>Монтаж сайдинга</h1>
+						<div class="banner-c__content-text">
+							<p>
+								Сайдинг пользуется огромной популярностью в частном домостроении. Для того, чтобы
+								внешняя отделка дома прослужила как можно дольше, монтаж сайдинга необходимо доверять
+								опытным специалистам.
+							</p>
+						</div>
+						<div class="banner-c__content-btns">
+							<button class="btn btn--white">Купить в 1 клик
+								<span class="btn__icon">
+									<svg viewBox="0 0 21 27" height="27">
+										<path
+											d="M18.3217 0H2.67828C1.36979 0 0.305237 1.06455 0.305237 2.37305V24.627C0.305237 25.9355 1.36979 27 2.67828 27H18.3217C19.6302 27 20.6947 25.9355 20.6947 24.627V2.37305C20.6947 1.06455 19.6301 0 18.3217 0ZM3.52694 4.65908C3.52694 4.31104 3.8117 4.02627 4.15975 4.02627H17.0519C17.3999 4.02627 17.6847 4.31104 17.6847 4.65908V7.07163C17.6847 7.41967 17.4 7.70444 17.0519 7.70444H4.15975C3.8117 7.70444 3.52694 7.41967 3.52694 7.07163V4.65908ZM11.2397 13.3099H9.76035C9.32345 13.3099 8.96934 12.9557 8.96934 12.5189V11.444C8.96934 11.0071 9.3235 10.653 9.76035 10.653H11.2397C11.6766 10.653 12.0307 11.0071 12.0307 11.444V12.5189C12.0307 12.9557 11.6766 13.3099 11.2397 13.3099ZM12.0307 16.5393V17.6142C12.0307 18.051 11.6766 18.4052 11.2397 18.4052H9.76035C9.3235 18.4052 8.96934 18.051 8.96934 17.6142V16.5393C8.96934 16.1024 9.32345 15.7483 9.76035 15.7483H11.2397C11.6766 15.7483 12.0307 16.1024 12.0307 16.5393ZM6.37655 22.7095C6.37655 23.1463 6.02238 23.5005 5.58553 23.5005H4.10617C3.66932 23.5005 3.31516 23.1463 3.31516 22.7095V21.6346C3.31516 21.1977 3.66932 20.8436 4.10617 20.8436H5.58553C6.02238 20.8436 6.37655 21.1977 6.37655 21.6346V22.7095ZM6.37655 17.6142C6.37655 18.051 6.02238 18.4052 5.58553 18.4052H4.10617C3.66932 18.4052 3.31516 18.051 3.31516 17.6142V16.5393C3.31516 16.1024 3.66932 15.7483 4.10617 15.7483H5.58553C6.02238 15.7483 6.37655 16.1024 6.37655 16.5393V17.6142ZM6.37655 12.5189C6.37655 12.9557 6.02238 13.3099 5.58553 13.3099H4.10617C3.66932 13.3099 3.31516 12.9557 3.31516 12.5189V11.444C3.31516 11.0071 3.66932 10.653 4.10617 10.653H5.58553C6.02238 10.653 6.37655 11.0071 6.37655 11.444V12.5189ZM17.6847 22.7095C17.6847 23.1463 17.3306 23.5005 16.8937 23.5005H9.7603C9.32345 23.5005 8.96928 23.1463 8.96928 22.7095V21.6346C8.96928 21.1977 9.3234 20.8436 9.7603 20.8436H16.8937C17.3306 20.8436 17.6847 21.1977 17.6847 21.6346V22.7095ZM17.6847 17.6142C17.6847 18.051 17.3306 18.4052 16.8937 18.4052H15.4144C14.9775 18.4052 14.6234 18.051 14.6234 17.6142V16.5393C14.6234 16.1024 14.9775 15.7483 15.4144 15.7483H16.8937C17.3306 15.7483 17.6847 16.1024 17.6847 16.5393V17.6142ZM17.6847 12.5189C17.6847 12.9557 17.3306 13.3099 16.8937 13.3099H15.4144C14.9775 13.3099 14.6234 12.9557 14.6234 12.5189V11.444C14.6234 11.0071 14.9775 10.653 15.4144 10.653H16.8937C17.3306 10.653 17.6847 11.0071 17.6847 11.444V12.5189Z" />
+									</svg>
+
+								</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="section advantages-b">
+				<div class="container">
+					<h3 class="section__title">Почему нужно выбрать нас?</h3>
+					<div class="row advantages-b__row">
+						<div class="col-sm-3">
+							<!-- item -->
+							<div class="icon-text">
+								<div class="icon-text__icon">
+									<img src="./docs/img/other/garantiya.svg" alt="Гарантия">
+								</div>
+								<div class="icon-text__title">Гарантия</div>
+								<div class="icon-text__text">
+									Гарантия 1 год на монтаж. <br>
+									Работаем по договору.
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<!-- item -->
+							<div class="icon-text">
+								<div class="icon-text__icon">
+									<img src="./docs/img/other/delivery.svg" alt="Доставка">
+								</div>
+								<div class="icon-text__title">Доставка</div>
+								<div class="icon-text__text">
+									Доставим материал в любую точку РБ
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<!-- item -->
+							<div class="icon-text">
+								<div class="icon-text__icon">
+									<img src="./docs/img/other/rasrochka.svg" alt="Доставка">
+								</div>
+								<div class="icon-text__title">Рассрочка</div>
+								<div class="icon-text__text">
+									Рассрочка до 10 месяцев
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<!-- item -->
+							<div class="icon-text">
+								<div class="icon-text__icon">
+									<img src="./docs/img/other/stocks.svg" alt="Скидки на объем">
+								</div>
+								<div class="icon-text__title">Скидки на объем</div>
+								<div class="icon-text__text">
+									Снижение стоимости при заказе большого объема
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section advantages-b">
+				<div class="container textt">
+					<h3 class="section__title">Сколько стоит квадратный метр сайдинга?</h3>
+					<p>Прайс-лист на монтаж наружного сайдинга в Минске:</p>
+					<table style="width: 100%;">
+						<tbody>
+							<tr>
+								<th width="600"><strong>Вид работы по сайдингу</strong></th>
+								<th width="400"><strong>Цена, бел. рублей</strong></th>
+							</tr>
+							<tr>
+								<td width="600">монтажные работы по установке сайдинга на стены</td>
+								<td width="400">9,5&nbsp;бел. рублей/м2</td>
+							</tr>
+							<tr>
+								<td width="600">монтажные работы по подшиву кровли сайдинг-панелями</td>
+								<td width="400">8&nbsp;бел. рублей/м2</td>
+							</tr>
+							<tr>
+								<td width="600">монтажные работы по оформлению откосов</td>
+								<td width="400">4&nbsp;бел. рублей/м.п.</td>
+							</tr>
+							<tr>
+								<td width="600">монтажные работы по прокладке гидроизоляции</td>
+								<td width="400">2,2&nbsp;бел. рублей/м2</td>
+							</tr>
+							<tr>
+								<td width="600">устройство обрешетки из дерева по деревянной основе</td>
+								<td width="400">4,0&nbsp;бел. рублей/м2</td>
+							</tr>
+							<tr>
+								<td width="600">устройство обрешетки из дерева на кирпич или бетон/td&gt;</td>
+								<td width="400">5,5&nbsp;бел. рублей/м2</td>
+							</tr>
+							<tr>
+								<td width="400">устройство обрешетки из металла по деревянной основе</td>
+								<td width="400">4,0&nbsp;бел. рублей/м2</td>
+							</tr>
+							<tr>
+								<td width="600">устройство обрешетки из металла по кирпичу и бетону</td>
+								<td width="400">5,5&nbsp;бел. рублей/м2</td>
+							</tr>
+							<tr>
+								<td width="600">устройство утепления</td>
+								<td width="400">3,0 бел. рублей/м2</td>
+							</tr>
+							<tr>
+								<td width="600">обработка дерева противопожарным и био-септиком</td>
+								<td width="400">0,3 бел. рублей/м.п.</td>
+							</tr>
+							<tr>
+								<td width="600">обустройство отливов</td>
+								<td width="400">1,0 бел. рублей/м.п.</td>
+							</tr>
+							<tr>
+								<td width="600">монтажные работы по установке цокольного сайдинга</td>
+								<td width="400">12,0 бел. рублей/м.п.</td>
+							</tr>
+							<tr>
+								<td width="600">установка водостоков</td>
+								<td width="400">6,0 бел. рублей/м.п.</td>
+							</tr>
+						</tbody>
+					</table>
+					<p>&nbsp;* - данные расценки являются ориентировочными. Точные цены зависят от многих факторов на
+						конкретном объекте.</p>
+					<div><a href="galereya-rabot/">Примеры работ отделки сайдингом и фасадными панелями</a></div>
+				</div>
+			</section>
+			<div class="section">
+				<div class="container">
+					<fragment>
+						<img src="./docs/img/other/pri-zakaze-sadinga.jpg" alt="">
+					</fragment>
+				</div>
+			</div>
+			<section class="section">
+				<div class="container container--xl">
+					<h2 class="section__title">Галерея</h2>
+					<div class="gallery-card-list">
+						<!-- gallery-card -->
+						<div class="gallery-card">
+							<div class="gallery-card__img">
+								<img src="https://stroy360.by/assets/cache_image/products/9034/small/1_400x250_028.jpg">
+							</div>
+							<div class="gallery-card__title">
+								Монтаж фасада сайдингом Фасадная система АМК Кирпич микс 300
+							</div>
+							<a class="gallery-card__more btn btn-primary"
+								href="galereya-rabot/montazh-sofitov-yu-plast-korichnevyij.html">
+								Подробнее
+							</a>
+						</div>
+						<!-- gallery-card -->
+						<div class="gallery-card">
+							<div class="gallery-card__img">
+								<img src="https://stroy360.by/assets/cache_image/products/9034/small/1_400x250_028.jpg">
+							</div>
+							<div class="gallery-card__title">
+								Монтаж фасада сайдингом Фасадная система АМК Кирпич микс 300
+							</div>
+							<a class="gallery-card__more btn btn-primary"
+								href="galereya-rabot/montazh-sofitov-yu-plast-korichnevyij.html">
+								Подробнее
+							</a>
+						</div>
+						<!-- gallery-card -->
+						<div class="gallery-card">
+							<div class="gallery-card__img">
+								<img src="https://stroy360.by/assets/cache_image/products/9034/small/1_400x250_028.jpg">
+							</div>
+							<div class="gallery-card__title">
+								Монтаж фасада сайдингом Фасадная система АМК Кирпич микс 300
+							</div>
+							<a class="gallery-card__more btn btn-primary"
+								href="galereya-rabot/montazh-sofitov-yu-plast-korichnevyij.html">
+								Подробнее
+							</a>
+						</div>
+						<!-- gallery-card -->
+						<div class="gallery-card">
+							<div class="gallery-card__img">
+								<img src="https://stroy360.by/assets/cache_image/products/9034/small/1_400x250_028.jpg">
+							</div>
+							<div class="gallery-card__title">
+								Монтаж фасада сайдингом Фасадная система АМК Кирпич микс 300
+							</div>
+							<a class="gallery-card__more btn btn-primary"
+								href="galereya-rabot/montazh-sofitov-yu-plast-korichnevyij.html">
+								Подробнее
+							</a>
+						</div>
+						<!-- gallery-card -->
+						<div class="gallery-card">
+							<div class="gallery-card__img">
+								<img src="https://stroy360.by/assets/cache_image/products/9034/small/1_400x250_028.jpg">
+							</div>
+							<div class="gallery-card__title">
+								Монтаж фасада сайдингом Фасадная система АМК Кирпич микс 300
+							</div>
+							<a class="gallery-card__more btn btn-primary"
+								href="galereya-rabot/montazh-sofitov-yu-plast-korichnevyij.html">
+								Подробнее
+							</a>
+						</div>
+						<!-- gallery-card -->
+						<div class="gallery-card">
+							<div class="gallery-card__img">
+								<img src="https://stroy360.by/assets/cache_image/products/9034/small/1_400x250_028.jpg">
+							</div>
+							<div class="gallery-card__title">
+								Монтаж фасада сайдингом Фасадная система АМК Кирпич микс 300
+							</div>
+							<a class="gallery-card__more btn btn-primary"
+								href="galereya-rabot/montazh-sofitov-yu-plast-korichnevyij.html">
+								Подробнее
+							</a>
+						</div>
+						<!-- gallery-card -->
+						<div class="gallery-card">
+							<div class="gallery-card__img">
+								<img src="https://stroy360.by/assets/cache_image/products/9034/small/1_400x250_028.jpg">
+							</div>
+							<div class="gallery-card__title">
+								Монтаж фасада сайдингом Фасадная система АМК Кирпич микс 300
+							</div>
+							<a class="gallery-card__more btn btn-primary"
+								href="galereya-rabot/montazh-sofitov-yu-plast-korichnevyij.html">
+								Подробнее
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section">
+				<div class="container-fluid">
+					<h2 class="section__title">Типичные ошибки при самостоятельном монтаже сайдинга</h2>
+					<div class="container">
+						<div class="info-card-list">
+							<!-- card -->
+							<div class="info-card">
+								<h4 class="info-card__title">
+									Неправильный расчет количества материала
+								</h4>
+								<div class="info-card__text">
+									<p>
+										Эта ошибка может негативно отразиться на скорости и стоимости выполнения
+										строительных работ. Расчет необходимого количества материала необходимо
+										осуществлять с учетом площади и архитектурных особенностей дома.
+									</p>
+								</div>
+							</div>
+							<!-- card -->
+							<div class="info-card">
+								<h4 class="info-card__title">
+									Слишком жесткое крепление панелей при помощи гвоздей
+								</h4>
+								<div class="info-card__text">
+									<p>
+										Крепежные элементы не должны забиваться "до отказа". Дело в том, что сайдинг
+										подвержен температурным воздействиям (материал немного сужается, расширяется).
+										Гвозди, забитые до упора, ограничат движение сайдинга, из-за чего конструкция
+										может деформироваться.
+									</p>
+								</div>
+							</div>
+							<!-- card -->
+							<div class="info-card">
+								<h4 class="info-card__title">
+									Зажатие сайдинга между двумя дополнительными элементами
+								</h4>
+								<div class="info-card__text">
+									<p>
+										Между сайдингом и уголками, планками необходимо оставлять расстояние не менее
+										0,5 см. В противном случае при температурном расширении панели могут изменить
+										размер и форму.
+									</p>
+								</div>
+							</div>
+							<!-- card -->
+							<div class="info-card">
+								<h4 class="info-card__title">
+									Несоблюдение уровней, при этом рельеф не совпадает
+								</h4>
+								<div class="info-card__text">
+									<p>
+										Необходимо, чтобы сайдинг монтировался ровно, по уровню. Если этим правилом
+										пренебрегать, материал будет установлен неровно. В итоге перекос будет заметен
+										невооруженным глазом.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="container">
+				<p align="center"><iframe src="https://www.youtube.com/embed/tA5JbhEVx14?rel=0&amp;controls=0"
+						frameborder="0" width="100%" height="500"></iframe></p>
+			</div>
+			<section class="section">
+				<div class="container-fluid">
+					<h2 class="section__title">Этапы монтажа сайдинг-панелей</h2>
+					<div class="container">
+						<ul class="list-stages">
+							<!-- item -->
+							<li class="list-stages__item">
+								<div class="list-stages__item-counter">
+									<span>01</span>
+								</div>
+								<div class="list-stages__item-inner">
+									В первую очередь, перед установкой сайдинга необходимо выполнить подготовку стен к
+									монтажу обрешетки. Поверхность полностью освобождается от выступающих элементов
+									(водостоки, наличники и другие конструкции). После этого можно приступать к
+									установке обрешетки. Шаг обрешетки о правилам должен составлять не более 40 см.
+									Обрешетка может выполняться из дерева или металлического профиля.
+								</div>
+							</li>
+							<!-- item -->
+							<li class="list-stages__item">
+								<div class="list-stages__item-counter">
+									<span>02</span>
+								</div>
+								<div class="list-stages__item-inner">
+									Когда обрешетка готова, можно переходить к работам по изоляции и утеплению фасадной
+									части здания. На этом этапе также проводится специальная обработка деревянных
+									деталей септиками. Чтобы сайдинг прослужил как можно дольше, его необходимо
+									монтировать поверх изоляционного материала. Места соприкосновения сайдинга с гипсом,
+									камнем, кирпичом также необходимо тщательно изолировать.
+								</div>
+							</li>
+							<!-- item -->
+							<li class="list-stages__item">
+								<div class="list-stages__item-counter">
+									<span>03</span>
+								</div>
+								<div class="list-stages__item-inner">
+									После этого можно переходить к монтажу сайдинг-панелей. Отделка выполняется, начиная
+									от стартовой полосы, которая монтируется по уровню. Работы проводятся снизу вверх.
+									Крепеж панелей осуществляется оцинкованными гвоздями или саморезами через каждые 40
+									см. Когда сайдинг установлен, выполняется обустройство оконных и дверных откосов,
+									установка наличников. Финишные полосы стыкуются под углом 45 градусов. Это
+									обеспечивает конструкции аккуратный вид.
+								</div>
+							</li>
+							<!-- item -->
+							<li class="list-stages__item">
+								<div class="list-stages__item-counter">
+									<span>04</span>
+								</div>
+								<div class="list-stages__item-inner">
+									На заключительном этапе осуществляется подшив кровельной части дома софитными
+									панелями. Они обеспечивают вентиляцию подкровельного пространства. При необходимости
+									может быть выполнен монтаж водостоков. Централизованный отвод дождевой воды продлит
+									срок эксплуатации сайдинга.
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="section" style="padding-bottom: 80px;">
+				<div class="container">
+					<h2 class="section__title">Как мы работаем?</h2>
+					<div class="desc-item">
+						<div class="desc-item__row">
+							<div class="desc-item__text">
+								<p>
+									За два дня до начала работ менеджер компании составляет смету, после чего
+									заключается договор о сотрудничестве. В среднем, сроки установки сайдинга колеблются
+									в пределах от 2 до 4 недель. Работы проводятся с применением современного
+									оборудования, качественных материалов. Каждый этап монтажных работ контролирует
+									директор по строительству. Заказчикам важно знать, что на дополнительные работы,
+									которые не указаны в договоре, гарантия не распространяется. Перед сдачей объекта
+									владельцу дома предоставляется окончательная смета, подписывается акт сдачи-приемки
+									и осуществляется оплата услуги.
+								</p>
+								<p>
+									<b>
+										Заказывайте монтаж наружного сайдинга у нас по оптимальной цене и получите
+										индивидуальную скидку на отделочные материалы прямо сейчас!
+									</b>
+								</p>
+							</div>
+							<div class="desc-item__img">
+								<fragment>
+									<img src="docs/img/other/photo_1.jpg" alt="">
+								</fragment>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div
+				style="background: url(https://stroy360.by/assets/templates/stroy360/images/fon_cont.jpg) no-repeat;background-size: cover;">
+				<div class="container cont_form" style="padding: 50px 0;text-align: center;max-width: 500px;">
+					<div style="color:#ffed4a;font-size: 2em;padding-bottom: 40px;">Оставьте заявку!</div>
+					<form action="" method="post" class="ajax_form af_example" id="contactForm3">
+
+						<div class="form-group col-md-6">
+							<div class="controls">
+								<input type="text" id="af_name" name="name" value="" placeholder="Имя"
+									class="form-control">
+								<span class="error_name"></span>
+							</div>
+						</div>
+
+						<div class="form-group col-md-6">
+							<div class="controls">
+								<input type="text" id="af_tel" name="tel" value="" placeholder="Телефон"
+									class="form-control tell">
+								<span class="error_tel"></span>
+							</div>
+						</div>
+
+						<div class="form-group col-md-12">
+							<div class="controls">
+								<input type="email" id="af_email" name="email" value="" placeholder="E-mail"
+									class="form-control">
+								<span class="error_email"></span>
+							</div>
+						</div>
+
+						<div class="form-group col-md-12">
+							<div class="controls">
+								<textarea id="af_message" name="message" class="form-control" rows="5"
+									placeholder="Сообщение"></textarea>
+								<span class="error_message"></span>
+							</div>
+						</div>
+
+						<div class="form-group" style="display: inline-block;">
+							<div class="controls">
+								<button type="submit" class="btn btn-primary"
+									style="font-size: 20px;">Отправить</button>
+							</div>
+						</div>
+
+
+
+
+						<input type="hidden" name="af_action" value="fb2b34285b4d75d016e37bfb7b24280e">
+						<input type="text" name="org" value="" class="_org"
+							style="visibility:hidden; height: 0; width: 0; padding: 0; border:none;">
+					</form>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="./assets/js/main.js"></script>
+</body>
+
+</html>

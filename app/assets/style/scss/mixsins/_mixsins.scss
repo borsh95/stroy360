@@ -1,0 +1,91 @@
+@mixin desctop {
+	@media (max-width: #{$desctop}px) {
+		@content;
+	}
+}
+
+@mixin desctop-mid {
+	@media (max-width: #{$desctop-mid}px) {
+		@content;
+	}
+}
+
+@mixin desctop-min {
+	@media (max-width: #{$desctop-min}px) {
+		@content;
+	}
+}
+
+@mixin table {
+	@media (max-width: #{$table}px) {
+		@content;
+	}
+}
+
+@mixin table-min {
+	@media (min-width: #{$table + 1}px) {
+		@content;
+	}
+}
+
+@mixin mobile {
+	@media (max-width: #{$mobile}px) {
+		@content;
+	}
+}
+
+@mixin tel {
+	@media (max-width: #{$tel}px) {
+		@content;
+	}
+}
+
+@mixin from($min_width) {
+	@media screen and (min-width: #{$min_width}px) {
+		@content;
+	}
+}
+
+@mixin to($max_width) {
+	@media screen and (max-width: #{$max_width}px) {
+		@content;
+	}
+}
+
+@mixin scrollbars($size: 8px, $foreground: #7E7F81, $background: #F8F8F8) {
+    // для firefox
+    scrollbar-color: $foreground $background;
+    /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: thin;
+    /* толщина */
+
+    // Для Chrome
+    &::-webkit-scrollbar {
+        width: $size;
+        height: $size;
+        background-color: $background;
+    }
+
+	// Для Chrome
+    &::-webkit-scrollbar-track {
+        background-color: $background;
+        border: none;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $foreground;
+        border-radius: ($size/2);
+    }
+}
+
+@function rubberSize($minW, $maxW, $minScrin, $maxScrin) {
+	@return calc(#{$minW}px + (#{$maxW} - #{$minW}) * ((100vw - #{$minScrin}px) / (#{$maxScrin} - #{$minScrin})));
+}
+
+@function getEm($childSize, $parentSize) {
+	@return #{$childSize/$parentSize}em;
+}
+
+@function getPr($childSize, $parentSize) {
+	@return #{$childSize/$parentSize * 100%};
+}

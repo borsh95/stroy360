@@ -1,0 +1,21 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ COMMON BLOCKS ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.container {
+	&.container--xl {
+		width: initial !important;
+		max-width: 1920px;
+	}
+}
+
+.advantages-b {
+	&__row {
+		@include mobile {
+			> * {
+				margin-bottom: 50px;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
